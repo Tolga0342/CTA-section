@@ -8,9 +8,9 @@ https://ctasection.netlify.app/
 
 # technologie 
 
-HTML
-CSS
-REACT + VITE
+- HTML
+- CSS
+- REACT + VITE
 
 # beschrijving
 
