@@ -1,0 +1,119 @@
+.button {
+  position: static;
+  width: 158px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 24px 0 0 0;
+  border-radius: 26px;
+}
+
+.button-text {
+  position: static;
+  width: 130px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0 4px;
+
+  color: rgb(191, 86, 77);
+  font-family: "TT Commons Pro";
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.icon-container {
+  position: static;
+  width: 24px;
+  height: 24px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-arrow {
+  color: rgb(191, 86, 77);
+}
+
+.button:hover .icon-arrow {
+  color: rgb(255, 100, 90);
+}
+
+@media (max-width: 376px) {
+  .button {
+    width: 145px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 26px;
+    margin: 16px 0 0 0;
+  }
+}
+
+@media (max-width: 376px) {
+  .button-text {
+    width: 117px;
+    height: 24px;
+    color: rgba(191, 86, 77, 1);
+    font-family: "TT Commons Pro", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-right: -8px;
+  }
+}
+
+@media (max-width: 376px) {
+  .icon-container {
+    width: 24px;
+    height: 24px;
+  }
+  .icon-arrow {
+    color: rgb(191, 86, 77);
+  }
+}
+
+@font-face {
+  font-family: "TT Commons Pro";
+  src: url("../assets/TTCommonsPro1/TTCommonsPro-Normal.otf") format("opentype");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT Commons Pro";
+  src: url("../assets/TTCommonsPro1/TTCommonsPro-Normal.otf") format("opentype");
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT Commons Pro";
+  src: url("../assets/TTCommonsPro1/TTCommonsPro-DemiBold.otf")
+    format("opentype");
+  font-weight: 600;
+  font-display: swap;
+}

@@ -1,0 +1,313 @@
+.image-cta-container {
+  position: static;
+  width: 644px;
+  height: 515px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 1;
+  margin: 0 10px;
+
+  box-sizing: border-box;
+  position: relative;
+}
+.image-cta-image {
+  position: static;
+  width: 644px;
+  height: 515px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 1;
+  background-image: url("../assets/picture.jpg");
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.gradient-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 644px;
+  height: 257.5px;
+  flex: none;
+  flex-grow: 0;
+  background: linear-gradient(0deg, rgb(20, 20, 20), rgba(20, 20, 20, 0) 100%);
+  opacity: 0.8;
+  pointer-events: none;
+  border-radius: 0 0 4px 4px;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.frame-title-plain-button {
+  position: absolute;
+  width: 596px;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0px;
+  box-sizing: border-box;
+  margin: 419px 24px 32px;
+}
+
+.title-plaintext-container {
+  position: static;
+  width: 508px;
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0 32px 0 0;
+  box-sizing: border-box;
+}
+
+.title-image {
+  position: static;
+  z-index: 2;
+  width: 508px;
+  height: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 0 0 8px 0;
+  color: rgb(255, 255, 255);
+  font-family: "TT Commons Pro";
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.56px;
+  text-align: left;
+}
+
+.plain-text {
+  position: static;
+  z-index: 2;
+  width: 508px;
+  height: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  opacity: 0.5;
+  color: rgb(250, 250, 250);
+  font-family: "TT Commons Pro";
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.arrow-button-container {
+  position: static;
+  z-index: 2;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  box-sizing: border-box;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.arrow-icon {
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  color: white;
+}
+
+.arrow-button-container:hover {
+  background-color: transparent;
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+.arrow-button-container:hover .arrow-icon {
+  color: rgb(255, 255, 255);
+}
+
+@media (max-width: 376px) {
+  .image-cta-container {
+    width: 335px;
+    height: 252px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: 0;
+  }
+}
+
+@media (max-width: 376px) {
+  .image-cta-image {
+    width: 335px;
+    height: 252px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/picture.jpg");
+  }
+}
+
+@media (max-width: 376px) {
+  .gradient-bottom {
+    width: 335px;
+    height: 126px;
+    background: linear-gradient(
+      0deg,
+      rgba(20, 20, 20, 1),
+      rgba(20, 20, 20, 0) 100%
+    );
+    opacity: 0.8;
+  }
+}
+
+@media (max-width: 376px) {
+  .frame-title-plain-button {
+    position: absolute;
+    bottom: 24px;
+    left: 16px;
+    width: 303px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    box-sizing: border-box;
+    margin: 0;
+  }
+}
+
+@media (max-width: 376px) {
+  .title-plaintext-container {
+    width: 239px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-sizing: border-box;
+    margin: 0 16px 0 0;
+  }
+}
+
+@media (max-width: 376px) {
+  .title-image {
+    width: 239px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    color: rgba(255, 255, 255, 1);
+    font-family: "TT Commons Pro";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    text-align: left;
+  }
+}
+
+@media (max-width: 376px) {
+  .plain-text {
+    width: 239px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    opacity: 0.5;
+    color: rgba(250, 250, 250, 1);
+    font-family: "TT Commons Pro";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+  }
+}
+
+@media (max-width: 376px) {
+  .arrow-button-container {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+  }
+}
+
+@media (max-width: 376px) {
+  .arrow-icon {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@font-face {
+  font-family: "TT Commons Pro";
+  src: url("../assets/TTCommonsPro1/TTCommonsPro-Normal.otf") format("opentype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "TT Commons Pro";
+  src: url("../assets/TTCommonsPro1/TTCommonsPro-Medium.otf") format("opentype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "TT Commons Pro";
+  src: url("../assets/TTCommonsPro1/TTCommonsPro-DemiBold.otf")
+    format("opentype");
+  font-weight: 600;
+}
